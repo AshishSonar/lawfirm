@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+    background-color: #2B2922;
+  }
+
+  .navbar{
+    display: flex;
+    align-items: center;
+    margin: 30px 50px;
+  }
+
+  .list{
+    display: flex;
+    list-style: none;
+    overflow: hidden;
+    font-size: 16px;
+    align-items: center;
+    margin-left: 380px;
+  }
+
+  .list-item{
+    color: #88867E;
+    padding: 0 20px;
+  }
+
+  .list-item:hover {
+    font-weight: 500;
+    color: #fff;
+  }
+
+  .get-started{
+    font-weight: 600;
+    font-size: 16px;
+    background-color: none;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: #918233;
+    color: #918233;
+    padding: 15px 30px;
+    box-shadow: none;
+  }
+
+  .hero{
+    margin: 0px 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .hero-heading{
+    flex: 1 1 0;
+    font-size: 70px;
+    color: #fff;
+  }
+
+  .para{
+    flex: 1 1 0;
+    padding-top: 35px;
+  }
+
+  .para p{
+    color: #b5b3b0;
+    font-size: 18px;
+    padding-right: 150px;
+    padding-left: 80px;
+    line-height: 150%;
+  }
+
+  .img-block{
+    background-image: url(./assets/law.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+  }
+
+  
